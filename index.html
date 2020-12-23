@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>M P School</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end mr-4" id="navbarNavDropdown">
+    <ul class="navbar-nav mr-4">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Academics
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Admistration</a>
+          <a class="dropdown-item" href="#">Faculty</a>
+          <a class="dropdown-item" href="#">SchoolCurculum</a>
+        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Facilities</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Downloads
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Assigements</a>
+          <a class="dropdown-item" href="#">e-books</a>
+          <a class="dropdown-item" href="#">DateSheet</a>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">AboutUs</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- PHOTO GALLERY -->
+<div class="container mt-4">
+  <div class="row">
+  	<div class="col-md-6">
+  		<div id="demo" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			  </ul>
+			  
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="images/school1.jpg" alt="Los Angeles" width="1100" height="500">
+			      <div class="carousel-caption">
+			      		<h4>School1</h4>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="images/school2.jpg" alt="Chicago" width="1125" height="500">
+			      <div class="carousel-caption">
+			      		<h4>School2</h4>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="images/school3.jpg" alt="New York" width="1100" height="500">
+			      <div class="carousel-caption">
+			      		<h4>School3</h4>
+			      </div>
+			    </div>
+			  </div>
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#demo" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+			</div>
+  		</div>
+  		<div class="col-md-4 marq mt-4">
+  			<h2 class="text-dark">Latest Notfications</h2>
+  			<marquee width="80%" direction="up" height="80%">
+  				<ul>
+  					<li>this is first notfication</li>
+  					<li>this is second notfication</li>
+  					<li>this is third notification</li>
+  				</ul>
+  			</marquee>
+  		</div>
+  	</div>
+</div>
+</body>
+</html>
