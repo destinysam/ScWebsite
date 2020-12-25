@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   height: 100%;
   background-color:#130613 !important;
+  font-size: 90%;
 }
 .carousel-inner img {
     width: 100%;
@@ -11,7 +12,23 @@ body {
   ul{
   	list-style-type: none;
   }
-  .mx-auto{
-  	margin-left: auto !important;
-  	margin-right: auto !important;
+  #Welcome{
+  	margin-top: 85px;
   }
+  .AboutSchool{
+  	font-family: 'Viaoda Libre', cursive;
+  	line-height: 2.0;
+  	color: white;
+  }
+ #littleimg img{
+ 	width: 60%;
+ 	height: 40%;
+ }
+ #row2{
+ 	margin-top: 40px;
+ }
+ #littleimg2{
+ 	margin-top: 3px;
+ 	margin-left: 110px;
+ 	margin-bottom: 3px;
+ }
