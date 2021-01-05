@@ -9,16 +9,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- GoogleFonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Viaoda+Libre&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">MPSchool</a>
+	<nav class="navbar navbar-expand-lg navbar-fixed-top bg-info navbar-dark">
+		<div class="navbar-brand ">
+			<a href="index.html" style="text-decoration: none;"><p class="text-light"><img src="Icons/logo.png" width="25px" height="25px" class="mr-2">MPSchool</p></a>
+		</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -31,7 +31,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Academics
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu  bg-info" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Admistration</a>
           <a class="dropdown-item" href="#">Faculty</a>
           <a class="dropdown-item" href="#">SchoolCurculum</a>
@@ -49,7 +49,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Downloads
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Assigements</a>
           <a class="dropdown-item" href="#">e-books</a>
           <a class="dropdown-item" href="#">DateSheet</a>
@@ -103,24 +103,26 @@
 			</div>
   		</div>
   		<div class="col-md-4 marq">
-  			<h2 class="text-light" style="margin-left: 37px;">Latest Notfications</h2>
+  			<h2 style="margin-left: 37px;">Latest Notfications</h2>
   			<marquee behavior="scroll" width="100%" direction="up" height="80%" onmouseover="this.start();" onmouseout="this.stop();" scrollamount=5>
   				<ul>
   					<li>
   						<span class="glyphicon glyphicon-hand-right" style="font-size: 15px;color: green;margin-right: 5px;"></span>
-  						<a href="#" style="font-size: 15px;color: white;">this is first notfication</a>
+  						<a href="#" style="font-size: 15px;color: black;">this is first notfication</a>
   					</li>
   					<li>
   						<span class="glyphicon glyphicon-hand-right" style="font-size: 15px;color: green;margin-right: 5px;"></span>
-  						<a href="#" style="font-size: 15px;color: white;">this is Second notfication</a>
+  						<a href="#" style="font-size: 15px;color: black;">this is Second notfication</a>
   					</li>
   					<li>
   						<span class="glyphicon glyphicon-hand-right" style="font-size: 15px;color: green;margin-right: 5px;"></span>
-  						<a href="#" style="font-size: 15px;color: white;">this is Third notfication</a>
+  						<a href="#" style="font-size: 15px;color: black;">this is Third notfication</a>
   					</li>
   				</ul>
   			</marquee>
-  			<a href="#" class="view">ViewAll</a>
+  			<div class="mt-4" style="margin-left: 33px;">
+  				<a href="#" class="view" >ViewAll</a>
+  			</div>
   		</div>
   	</div>
   	<div class="text-center" id="Welcome">
@@ -145,7 +147,11 @@
 		</div>
 	</div>
 </div>
-<div class="container-fluid mt-2">	
+<div class="text-center">
+		<h3 class="text-center" style="font-weight: bold;">Featured List</h3>
+		<div class="vl"></div>
+</div>	
+<div class="container mt-2">
 	<div class="row" id="row3">
 		<div class="col-md-3">
 			<div class="card bg-primary mt-2" style="height: 300px;">
@@ -210,26 +216,24 @@
 	</div>
 	<div class="row" id="LastRow">
 		<div class="col-md-4">
-			<ul class="mt-4" id="ul">
+			<ul class="mt-4 mr-4" id="ul">
 				<button type="button" class="btn btn-lg btn-primary">To ReachUs</button>
 				<li style="font-size: 15px;margin-top: 30px;">
 					<span class="glyphicon glyphicon-earphone" style="color: blue;"></span>
-					<strong class="text-light">+91-6009854566</strong>
+					<strong >+91-6009854566</strong>
 				</li>
 				<li style="font-size: 15px;">
 					<span class="glyphicon glyphicon-envelope" style="color: blue;"></span>
-					<strong class="text-light">MPSchool@outlook.com</strong>
+					<strong>MPSchool@outlook.com</strong>
 				</li>
 				<li style="font-size: 15px;">
 					<span class="glyphicon glyphicon-map-marker" style="color: blue;"></span>
-					<strong class="text-light">TarigamDevsar Kulgam,Kashmir</strong>
+					<strong>TarigamDevsar Kulgam,Kashmir</strong>
 				</li>
 			</ul>
 		</div>
 		<div class="col-md-8">
-			<div class="text-center">
-				<button type="button" class="btn btn-lg btn-primary mb-2">FindUs on Map</button>
-			</div>
+				<button type="button" class="btn btn-lg btn-primary mb-2" style="margin-left: 35px;">FindUs on Map</button>
 			<div style="width: 100%">
             	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="		0"     src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Tarigam%20Devsar+(MPSchool)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
         		</iframe>
@@ -240,7 +244,7 @@
 <div class="footer">
 	<div class="colophon text-center bg-info">
 		<div class="container">
-			<p class="copy text-dark">Copyright 2020 MPSchool &amp;Designed by <a style="text-decoration: none;color:black;" href="mailto:sams44802@gmail.com">RatherSameer</a>, All right reserved.</p>
+			<p class="copy text-dark">Copyright 2021 MPSchool &amp;Designed by <a style="text-decoration: none;color:black;" href="mailto:sams44802@gmail.com">RatherSameer</a>, All right reserved.</p>
 		</div>
 	</div>
 </div>

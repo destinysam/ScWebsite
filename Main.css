@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  height: 100%;
-  background-color:#130613 !important;
+  font-family: 'Playfair Display', serif;
   font-size: 90%;
+}
+nav.navbar{
+  position: -webkit-sticky;
+  position: sticky;
 }
 .navbar-nav{
 	font-size: 17px;
@@ -16,14 +18,13 @@ body {
   	list-style-type: none;
   }
   #Welcome{
-  	margin-top: 85px;
+  	margin-top: 97px;
   	margin-bottom: 40px;
   }
   .AboutSchool{
   	font-family: 'Viaoda Libre', cursive;
   	line-height: 2.0;
   	word-spacing: 10px;
-  	color: white;
   }
  #littleimg img{
  	width: 60%;
@@ -43,4 +44,13 @@ body {
  }
  #LastRow{
  	margin-top: 150px;
+ }
+ #ul{
+  margin-right: 100px;
+ }
+ .vl{
+  border-left: 3px solid green;
+  height: 80px;
+  margin-left: 50%;
+  margin-right: 50%;
  }
