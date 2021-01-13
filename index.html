@@ -4,19 +4,11 @@
 	<title>M P School</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="/assets/css/Main.css">
-    <script src="/assets/js/app.js"></script>
-    <script src="/assets/js/ui.js"></script>
-    <link rel="manifest" href="/manifest.json">
-    <link rel="Modern-Public-School" href="/assets/images/logo.png">
-    <meta name="ModernPublicSchool" content="#FFE1C4">
-    <meta name="theme-color" content="#00008B">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  	<link rel="stylesheet" href="Main.css">
+    <link rel="icon" href="images/logo.png">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- GoogleFonts -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -24,7 +16,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-fixed-top bg-info navbar-dark">
 		<div class="navbar-brand ">
-			<a href="index.html" style="text-decoration: none;"><p class="text-dark"><img src="/assets/images/logo.png" width="25px" height="25px" class="mr-2">MPSchool</p></a>
+			<a href="index.html" style="text-decoration: none;"><p class="text-dark"><img src="images/logo.png" width="25px" height="25px" class="mr-2">MPSchool</p></a>
 		</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -82,7 +74,7 @@
 			  <!-- The slideshow -->
 			  <div class="carousel-inner img-fluid">
 			    <div class="carousel-item active">
-			      <img class="img-thumbnail" src="/assets/images/school1.jpg" alt="Los Angeles" width="1300" height="500">
+			      <img class="img-thumbnail" src="images/school1.jpg" alt="Los Angeles" width="1300" height="500">
 			      <div class="carousel-caption">
 			      		<h4>School1</h4>
 			      </div>
@@ -94,7 +86,7 @@
 			      </div>
 			    </div>
 			    <div class="carousel-item">
-			      <img class="img-thumbnail" src="/assets/images/school3.jpg" alt="New York" width="1300" height="500">
+			      <img class="img-thumbnail" src="images/school3.jpg" alt="New York" width="1300" height="500">
 			      <div class="carousel-caption">
 			      		<h4>School3</h4>
 			      </div>
@@ -111,7 +103,8 @@
   		</div>
   		<div class="col-md-4 marq">
   			<h2 style="margin-left: 37px;">Latest Notfications</h2>
-  			<marquee behavior="scroll" width="100%" direction="up" height="80%" onmouseover="this.start();" onmouseout="this.stop();" scrollamount=5>
+  			<marquee behavior="scroll" id="mymarquee" width="100%" height="80%" direction="up" scrollamount="5" onMouseOver="document.getElementById('mymarquee').stop();"
+            onMouseOut="document.getElementById('mymarquee').start();">
   				<ul>
   					<li>
   						<span class="glyphicon glyphicon-hand-right" style="font-size: 15px;color: green;margin-right: 5px;"></span>
@@ -142,14 +135,14 @@
 				<h4>Sharjah Indian School is a Senior Secondary School, Owned and Managed by Indian Association Sharjah. Established in 1979 with 280 pupils and 13 teachers, the school stands as a landmark in the annals of the Indo- UAE friendship. Today after 40 years, the school has a strength of 13,937 students and 588 teachers with 8300 Students and 349 Teachers at Ghubaiba Branch. The school is approved and licensed by the private Education Department of the Ministry of Education, UAE and is affiliated to Central Board of Secondary Education, New Delhi, India. The school which stands on a plot of land most graciously donated by H.H Sheikh Sultan Bin Mohammed Al Qassimi, Member of the Supreme Council and Ruler of Sharjah, has a purpose built and magnificent infrastructure.</h4>
 			</div>
 			<div class="icon">
-				<img src="/assets/images/teacher1.gif">
+				<img src="images/teacher1.gif">
 			</div>
 		</div>
 		<div class="col-md-6 mt-2">
 			<div class="img-fluid" id="littleimg">
-				<img class="img-thumbnail" src="/assets/images/littleimg1.jpg">
-				<img class="img-thumbnail" src="/assets/images/littleimg2.jpg" id="littleimg2">
-				<img class="img-thumbnail" src="/assets/images/littleimg3.jpg">	
+				<img class="img-thumbnail" src="images/littleimg1.jpg">
+				<img class="img-thumbnail" src="images/littleimg2.jpg" id="littleimg2">
+				<img class="img-thumbnail" src="images/littleimg3.jpg">	
 			</div>
 		</div>
 	</div>
@@ -163,7 +156,7 @@
 		<div class="col-md-3">
 			<div class="card bg-primary mt-2" style="height: 300px;">
 				<div class="card-header">
-					<img src="/assets/images/teacher.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;">
+					<img src="images/teacher.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;">
 				</div>
 				<div class="card-body">
 					<div class="card-title text-center">
@@ -178,7 +171,7 @@
 		<div class="col-md-3">
 			<div class="card bg-secondary mt-2" style="height: 300px;">
 				<div class="card-header">
-					<img src="/assets/images/education.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;">
+					<img src="images/education.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;">
 				</div>
 				<div class="card-body">
 					<div class="card-title text-center">
@@ -193,7 +186,7 @@
 		<div class="col-md-3">
 			<div class="card bg-success mt-2" style="height: 300px;">
 				<div class="card-header">
-					<img src="/assets/images/books.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;">
+					<img src="images/books.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;">
 				</div>
 				<div class="card-body">
 					<div class="card-title text-center">
@@ -208,7 +201,7 @@
 		<div class="col-md-3">
 			<div class="card bg-info mt-2" style="height: 300px;">
 				<div class="card-header">
-					<img src="/assets/images/sports.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;" id="TeacherIcon">
+					<img src="images/sports.svg" class="rounded mx-auto d-block bg-light" style="height: 50px;width: 50px;" id="TeacherIcon">
 				</div>
 				<div class="card-body">
 					<div class="card-title text-center">
