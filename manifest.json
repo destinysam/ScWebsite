@@ -8,14 +8,19 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "/assets/images/books.svg",
+            "src": "/assets/images/teacher.svg",
             "type": "image/svg+xml",
-            "sizes": "600x600"
+            "sizes": "50x50"
         },
         {
-            "src": "/assets/images/education.svg",
-            "type": "image/svg+xml",
-            "sizes": "512x512"
+            "src": "/assets/images/logo.png",
+            "type": "image/png",
+            "sizes": "150x150"
+        },
+        {
+            "src": "/assets/images/teacher1.gif",
+            "type": "image/gif",
+            "sizes": "174x191"
         },
         {
             "src": "/assets/images/littleimg1.jpg",
@@ -33,11 +38,6 @@
             "sizes": "360x240"
         },
         {
-            "src": "/assets/images/logo.png",
-            "type": "image/png",
-            "sizes": "150x150"
-        },
-        {
             "src": "/assets/images/school1.jpg",
             "type": "image/jpeg",
             "sizes": "427x240"
@@ -53,19 +53,23 @@
             "sizes": "427x240"
         },
         {
-            "src": "/assets/images/teacher.svg",
-            "type": "image/svg+xml",
-            "sizes": "50x50"
-        },
-        {
             "src": "/assets/images/sports.svg",
             "type": "image/svg+xml",
             "sizes": "512x512"
         },
         {
-            "src": "/assets/images/teacher1.gif",
-            "type": "image/gif",
-            "sizes": "174x191"
+            "src": "/assets/images/education.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+        },
+         {
+            "src": "/assets/images/books.svg",
+            "type": "image/svg+xml",
+            "sizes": "600x600"
         }
-    ]
+    ],
+     "start_url": "/ScWebsite/index.html",
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
 }
