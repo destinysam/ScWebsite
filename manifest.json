@@ -1,7 +1,7 @@
 {
     "name": "MP School",
     "short_name": "MPS",
-    "start_url": ".",
+    "start_url": "./",
     "background_color": "rgb(102, 102, 153)",
     "theme_color": "#9933ff",
     "display": "standalone",
